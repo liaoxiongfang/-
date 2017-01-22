@@ -1,0 +1,15 @@
+libpcap使用
+
+libpcap是一个网络数据包捕获函数库，功能非常强大，Linux下著名的tcpdump就是以它为基础的。今天我们利用它来完成一个我们自己的网络嗅探器(sniffer)
+
+
+1.安装
+在http://www.tcpdump.org/下载libpcap（tcpdump的源码也可以从这个网站下载）
+解压
+./configure
+make
+sudo make install
+
+2.使用
+
+http://blog.csdn.net/htttw/article/details/7521053
